@@ -1,0 +1,27 @@
+{
+  "name": "react-tutorial",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "build": "browserify --debug public/src/js/index.js -o public/dist/bundle.js -t [ babelify --presets [ es2015 react ] ]",
+    "watch": "nodemon --ignore public/dist --exec 'npm run build'"
+  },
+  "author": "Joerg Henning <henning.joerg@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.14.1",
+    "express": "^4.13.3"
+  },
+  "devDependencies": {
+    "babelify": "^7.2.0",
+    "browserify": "^12.0.1",
+    "marked": "^0.3.5",
+    "nodemon": "^1.8.1",
+    "react": "^0.14.3",
+    "react-dom": "^0.14.3",
+    "uniqid": "^1.0.0"
+  }
+}
