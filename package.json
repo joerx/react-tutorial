@@ -1,7 +1,7 @@
 {
   "name": "react-tutorial",
   "version": "1.0.0",
-  "description": "",
+  "description": "Look you here: https://facebook.github.io/react/docs/tutorial.html",
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -23,5 +23,16 @@
     "react": "^0.14.3",
     "react-dom": "^0.14.3",
     "uniqid": "^1.0.0"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joerx/react-tutorial.git"
+  },
+  "keywords": [
+    "react"
+  ],
+  "bugs": {
+    "url": "https://github.com/joerx/react-tutorial/issues"
+  },
+  "homepage": "https://github.com/joerx/react-tutorial#readme"
 }
